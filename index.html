@@ -12,7 +12,7 @@
     <h1>Welcome to Akan names</h1>
     <div class="container">
         <h2>Input your details here.</h2>
-        <form name="myForm" class="form"></form>
+        <form name="myForm" class="form">
         <div class="form-group">
             <label for="number">Year of Birth</label>
             <input type="number" class="form-control" id="year" placeholder="Year of birth eg: 2022 if born in 2022" name="year">
@@ -28,9 +28,20 @@
         <div class="check-form">
             <label for="month">Gender</label><br>
             <label class="check-form">
-            <input type="radio" class="check-form-input" name="gender" id="male">
+            <input type="radio" class="check-form-input" name="gender" id="male"> Male
             </label>
         </div>
+        <div class="check-form">
+            <label class="check-form">
+                <input type="radio" class="check-form-input" name="gender" id="female"> Female
+            </label>
+        </div>
+        <div class="">
+            <button type="submit" class="????????" onclick="">Get Name</button>
+        </div>
+        <br>
+        </form>
+        <p id="results"></p>
 
     </div>
    
