@@ -1,4 +1,17 @@
 body{
-    background-position:  center;
+    background-position:  center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(49, 235, 173) ;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:whitesmoke;
+    margin-top: 10px;
+    margin-bottom: opx;
+    padding-bottom: 2px;
+    font-size: 48px;
+    text-shadow: 9px 7px 8px black;
 }
