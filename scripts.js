@@ -56,6 +56,24 @@ function getGender(){
             else if(dayValue == 2){
                 alert(`You were born on ${dayNames[1]}and your Akan name is ${femaleNames[1]}.`)
             }
-
+            else if(dayValue == 3){
+                alert(`You were born on ${dayNames[2]}and your Akan name is ${femaleNames[2]}`)
+            }
+            else if(dayValue == 4){
+                alert(`You were born on ${dayNames[3]}and your Akan name is ${femaleNames[3]}`)
+            }
+            else if(dayValue == 5){
+                alert(`You were born on ${dayNames[4]}and your Akan name is ${femaleNames[4]}`)
+            }
+            else if(dayValue == 6){
+                alert(`You were born on ${dayNames[5]}and your Akan name is ${femaleNames[5]}`)
+            }
+            else if(dayValue == -0){
+                alert("You were born on " +dayNames[6] + " and Your akan name is " +femaleNames[6]+"!")
+            }
     }
+}
+function findName(){
+    dayValue = calculateDayValue();
+    getGender();
 }
