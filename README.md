@@ -36,7 +36,7 @@
 
 - CSS - which was used to style the pages incuding the left aside navigation bar
 
-- javascript - to make the web interactice
+- javascript - to make the web interactive
 
 ## Reference
 
