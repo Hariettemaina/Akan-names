@@ -23,5 +23,12 @@ h1{
     color: rgb(104, 80, 80);
     font-weight: 600;
     font-size: large;
-    
+
 }
+.container{
+    display: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
