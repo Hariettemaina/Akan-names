@@ -2,7 +2,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(49, 235, 173);
+  background-color: darkorange;
 }
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,4 +37,15 @@ h1 {
     margin-right: 20%;
     margin-left: 16%;
     border-radius: 10px;
+}
+.form-group{
+    color: beige;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+}.check-form2{
+    color: beige;
+}
+h2{
+    color: beige;
 }
