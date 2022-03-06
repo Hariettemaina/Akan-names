@@ -15,7 +15,7 @@
     <div class="overlay">
         <div class="container">
             <h2>Input your details here.</h2>
-            <form name="myForm" class="form" method="get">
+            <form  action="" class="form">
                 <div class="form-group">
                     <label for="number">Year of Birth</label>
                     <input type="number" class="form-control" id="year"
@@ -27,31 +27,30 @@
                 </div>
                 <div class="form-group">
                     <label for="day">Date of Birth</label>
-                    <input type="number" class="form-control" id="date" placeholder="Date of birth" name="date" />
+                    <input type="number" class="form-control" id="day" placeholder="Date of birth" name="day" />
                 </div>
                 <div class="check-form2">
                     <label for="month">Gender</label><br />
                     <label class="check-form">
-                        <input type="radio" class="check-form-input" name="gender" id="male" />
+                        <input type="radio" class="check-form-input" value="male" id="male" />
                         Male
                     </label>
                 </div>
                 <div class="check-form2">
                     <label class="check-form">
-                        <input type="radio" class="check-form-input" name="gender" id="female" />
+                        <input type="radio" class="check-form-input" value="female" id="female" />
                         Female
                     </label>
                 </div>
                 <div class="button">
-                    <button type="submit" class="name" onclick="findName()">Get Name</button>
+                    <button type="submit" class="name" onclick="check();">Submit</button>
                 </div>
                 <br />
             </form>
-            <p id="results"></p>
         </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="/scripts.js"></script>
 </body>
 
 </html>
